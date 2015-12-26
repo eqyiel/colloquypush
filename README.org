@@ -1,0 +1,10 @@
+ZNC =colloquypush= module with
+[[https://github.com/jpnurmi][jpnurmi's]] patch for ZNC 1.6.
+
+Forked because the original repo hasn't seen any activity for three
+years and the pull request mentioning that patch is still open, and I
+wanted to make this easier for myself to build in the future.
+
+You'll need =znc-buildmod= (provided by =znc-dev= on Debian).  Just
+run make and copy =colloquy.so= to ZNC's modules directory, probably
+something like =/var/lib/znc/modules=.
